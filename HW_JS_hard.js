@@ -47,8 +47,8 @@
 
 
 
-/*2*. Преобразовать 2 задачу в функцию, принимающую на вход строку, которая и будет выводиться в консоль (как в условии смайлик),
-а также количество строк для вывода e.g. function printSmile(stroka, numberOfRows)*/
+/*2*. Преобразовать 2 задачу в функцию, принимающую на вход строку, которая и будет выводиться в консоль 
+(как в условии смайлик), а также количество строк для вывода e.g. function printSmile(stroka, numberOfRows)*/
     let numberOfRows = 10
     function printSmile(stroka, numberOfRows) {
         let strSmile = stroka
@@ -89,7 +89,7 @@
     }
     const count = getWordStructure(valString2)  // результат функции присваиваем в объект
 
-    console.log('Слово ' + valString + ' состоит из ' + count.glasnye + ' гласных и ' + count.soglasnie + ' согласных букв')
+    console.log('Слово ' + valString2 + ' состоит из ' + count.glasnye + ' гласных и ' + count.soglasnie + ' согласных букв')
 
     
 /*4**. Написать функцию, которая проверяет, является ли слово палиндромом
